@@ -52,8 +52,6 @@ function togglePsw() {
       z.style.display = "none";
     }
   }
-  
-
   function togglePS() {
   var a = document.getElementById("Cpassword");
   var b = document.getElementById("hide3");
@@ -69,40 +67,47 @@ function togglePsw() {
     c.style.display = "none";
   }
 }
-  var e = document.getElementById("myInput");
-  var f = document.getElementById("myInput2");
+// function toggleBtn() {
+//   if (password == "") {
+//         error.style.display = "block";
+//       } else if (Cpassword == "") {
+//         error.style.display = "block";
+//         error.innerHTML = "Confirm Password can't be empty!";
+//       } else if (password != Cpassword) {
+//         error.style.display = "block";
+//         error.innerHTML = "Password does not match";
+//       } else {
+//         error.style.display = "none";
+//         validCpassword = true;
+//         validpassword = true;
+//       }
+// }
+
+  // let form;
+  // form = document.querySelector("form");
+  // form.addEventListener("submit", (e) => {
+  //   e.preventDefault();
+  //   checkValidation();
+  // });
+  // let checkValidity = () => {
+  //   let [validpassword, validCpassword] = [false, false];
+  //   if (password.value == "") {
+  //     error.style.display = "block";
+  //   } else if (Cpassword.value == "") {
+  //     error.style.display = "block";
+  //     error.innerHTML = "Confirm Password can't be empty!";
+  //   } else if (password.value != Cpassword.value) {
+  //     error.style.display = "block";
+  //     error.innerHTML = "Password does not match";
+  //   } else {
+  //     error.style.display = "none";
+  //     validCpassword = true;
+  //     validpassword = true;
+  //   }
   
-  /* if(e === f){
-      
-  } */
-  let form;
-  form = document.querySelector("form");
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    checkValidation();
-  });
-  let checkValidity = () => {
-    let [validpassword, validCpassword] = [false, false];
-    if (password.value == "") {
-      error.style.display = "block";
-    } else if (Cpassword.value == "") {
-      /* let errohtml =  */
-      /* errohtml */
-      /* console.log(error.innerHTML); */
-      error.style.display = "block";
-      error.innerHTML = "Confirm Password can't be empty!";
-    } else if (password.value != Cpassword.value) {
-      error.style.display = "block";
-      error.innerHTML = "Password does not match";
-    } else {
-      error.style.display = "none";
-      validCpassword = true;
-      validpassword = true;
-    }
-  
-    return validpassword && validCpassword;
-  };
-  function checkValidation() {
-    let nextPage = "./pcs.html";
-    checkValidity() ? window.location.assign(nextPage) : " ";
-  }
+  //   return validpassword && validCpassword;
+  // };
+  // function checkValidation() {
+  //   let nextPage = "./404Error/index.html";
+  //   checkValidity() ? window.location.assign(nextPage) : " ";
+  // }
