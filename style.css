@@ -250,6 +250,9 @@
   #a-container{
     position: relative;
   }
+  #error{
+    display: none;
+  }
   i{
     position: absolute;
     top: 65.9%;
