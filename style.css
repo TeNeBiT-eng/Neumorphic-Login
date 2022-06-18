@@ -244,13 +244,27 @@
   a{
     cursor: pointer;
   }
+  #b-container{
+    position: relative;
+  }
+  #a-container{
+    position: relative;
+  }
   i{
-    transform: translate(1000%, -250%);
+    position: absolute;
+    top: 65.9%;
+    right: 25%;
     cursor: pointer;
   }
-  .firstEye{
-    transform: translate(1240%, -250%);
-  }
+  #hide2{
+    display: none;
+}
+#hide4{
+    display: none;
+}
+  /* .firstEye{
+    transform: translate(1110%, -250%);
+  } */
   @keyframes is-gx {
     0%, 10%, 100% {
       width: 400px;

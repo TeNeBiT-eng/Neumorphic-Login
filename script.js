@@ -53,6 +53,22 @@ function togglePsw() {
     }
   }
   
+
+  function togglePS() {
+    var a = document.getElementById("Cpassword");
+    var b = document.getElementById("hide3");
+    var c = document.getElementById("hide4");
+  
+    if (a.type === "password") {
+      a.type = "text";
+      b.style.display = "none";
+      c.style.display = "block";
+    } else {
+      a.type = "password";
+      b.style.display = "block";
+      c.style.display = "none";
+    }
+  }
   var e = document.getElementById("myInput");
   var f = document.getElementById("myInput2");
   
